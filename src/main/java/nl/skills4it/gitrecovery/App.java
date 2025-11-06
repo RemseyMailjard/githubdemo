@@ -11,6 +11,7 @@ public class App {
     public static void main(String[] args) {
 
         System.out.println("another bug");
+        System.out.println("another bug2");
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
