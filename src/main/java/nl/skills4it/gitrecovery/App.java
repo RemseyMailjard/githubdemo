@@ -9,9 +9,7 @@ public class App {
     private static final List<String> NOTES = new ArrayList<>();
 
     public static void main(String[] args) {
-        NOTES.add("Welcome to Git Recovery Demo ✅");
-        NOTES.add("Commit early, commit often.");
-        NOTES.add("Write clear commit messages.");
+
 
         Scanner scanner = new Scanner(System.in);
 
