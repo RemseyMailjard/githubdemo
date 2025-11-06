@@ -59,6 +59,8 @@ public class App {
     }
 
     private static void simulateBug() {
+
+        System.out.println("I added a bug");
         if (!NOTES.isEmpty()) {
             String removed = NOTES.remove(0);
             System.out.println("Removed: " + removed + " ❌ (Oops!)");
